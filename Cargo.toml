@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "obsidian-core",
+    "obsidian-server",
+    "plugins/vanilla"
+]

@@ -1,0 +1,9 @@
+[package]
+name = "obsidian-server"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+mio = { version = "0.8", features = ["os-poll", "net"]}
+serde = "1.0.219"
+once_cell = { version = "1.21.3", features = ["derive"] }
